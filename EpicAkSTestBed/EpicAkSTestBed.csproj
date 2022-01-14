@@ -5,6 +5,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+		<Authors>Akshay Srinivasan</Authors>
+		<Copyright>2021 Akshay Srinivasan</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
