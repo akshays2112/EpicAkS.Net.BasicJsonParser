@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32104.313
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpicAkS.Net.BasicJsonParser", "EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser.csproj", "{34F349AE-0CD8-4581-83AE-340CA94CA65F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicAkSTestBed", "EpicAkSTestBed\EpicAkSTestBed.csproj", "{A5714B6C-AEAB-4361-ACB4-08BD34291983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpicAkSTestBed", "EpicAkSTestBed\EpicAkSTestBed.csproj", "{A5714B6C-AEAB-4361-ACB4-08BD34291983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestsForEpicAkS.Net.BasicJsonParser", "MSTestsForEpicAkS.Net.BasicJsonParser\MSTestsForEpicAkS.Net.BasicJsonParser.csproj", "{FD219636-B44B-4971-B98D-48B6C790CDEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A5714B6C-AEAB-4361-ACB4-08BD34291983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5714B6C-AEAB-4361-ACB4-08BD34291983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5714B6C-AEAB-4361-ACB4-08BD34291983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD219636-B44B-4971-B98D-48B6C790CDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD219636-B44B-4971-B98D-48B6C790CDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD219636-B44B-4971-B98D-48B6C790CDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD219636-B44B-4971-B98D-48B6C790CDEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

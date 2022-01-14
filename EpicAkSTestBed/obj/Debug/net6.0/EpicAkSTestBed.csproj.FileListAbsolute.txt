@@ -23,7 +23,6 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\bin\Debug\net6.0\EpicAkSTestBed.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.pdb
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.xml
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\obj\Debug\net6.0\EpicAkSTestBed.csproj.AssemblyReference.cache
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\obj\Debug\net6.0\EpicAkSTestBed.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\obj\Debug\net6.0\EpicAkSTestBed.AssemblyInfoInputs.cache

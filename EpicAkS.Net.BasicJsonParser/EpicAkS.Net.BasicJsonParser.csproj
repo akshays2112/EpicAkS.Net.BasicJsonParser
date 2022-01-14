@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -9,11 +9,13 @@
 		<NoWarn />
 		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
 		<WarningsAsErrors />
-		<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+		<!-- <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow> -->
 	</PropertyGroup>
 
+	<!--
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<DocumentationFile>C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser.xml</DocumentationFile>
 	</PropertyGroup>
+	-->
 
 </Project>

@@ -5,7 +5,7 @@ namespace EpicAkS.Net.BasicJsonParser
 {
     public static class JsonHelpers
     {
-        public static string NamespaceScoped { get; set; } = string.Empty;
+        public static string NamespaceScoped { get; set; } = "EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.";
 
         private class JsonProperty
         {
@@ -110,7 +110,7 @@ namespace EpicAkS.Net.BasicJsonParser
             }
             else if (propertyType == typeof(byte) || propertyType == typeof(byte?))
             {
-                propertyInfo.SetValue(obj, byte.Parse(jsonProperty?.Value ?? String.Empty));
+                propertyInfo.SetValue(obj, byte.Parse(jsonProperty?.Value ?? String.Empty, System.Globalization.NumberStyles.HexNumber));
             }
             else if (propertyType == typeof(Byte) || propertyType == typeof(Byte?))
             {
