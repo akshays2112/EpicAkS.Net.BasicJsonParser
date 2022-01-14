@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EpicAkS.Net.BasicJsonParser</name>
+    </assembly>
+    <members>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleAccessToken">
+            <summary>
+            <c>GoogleAccessToken</c> Refer to docs URI link web page.
+            </summary>
+            <seealso>https://developers.google.com/identity/protocols/oauth2?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleAccessToken.AccessToken">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleAccessToken.TokenType">
+            <value>
+            <c>TokenType</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleAccessToken.ExpiresIn">
+            <value>
+            <c>ExpiresIn</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2?hl=en</seealso>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration">
+            <summary>
+            <c>GoogleOpenIdConfiguration</c> Refer to docs URI link web page.
+            </summary>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.Issuer">
+            <value>
+            <c>Issuer</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.AuthorizationEndpoint">
+            <value>
+            <c>AuthorizationEndpoint</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.DeviceAuthorizationEndpoint">
+            <value>
+            <c>DeviceAuthorizationEndpoint</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.TokenEndpoint">
+            <value>
+            <c>TokenEndpoint</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.UserinfoEndpoint">
+            <value>
+            <c>UserinfoEndpoint</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.RevocationEndpoint">
+            <value>
+            <c>RevocationEndpoint</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.Jwks_Uri">
+            <value>
+            <c>Jwks_Uri</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.ResponseTypesSupported">
+            <value>
+            <c>ResponseTypesSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.SubjectTypesSupported">
+            <value>
+            <c>SubjectTypesSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.IdTokenSigningAlgValuesSupported">
+            <value>
+            <c>IdTokenSigningAlgValuesSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.ScopesSupported">
+            <value>
+            <c>ScopesSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.TokenEndpointAuthMethodsSupported">
+            <value>
+            <c>TokenEndpointAuthMethodsSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.ClaimsSupported">
+            <value>
+            <c>ClaimsSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.CodeChallengeMethodsSupported">
+            <value>
+            <c>CodeChallengeMethodsSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleOpenIdConfiguration.GrantTypesSupported">
+            <value>
+            <c>GrantTypesSupported</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en</seealso>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo">
+            <summary>
+            <c>GoogleUserInfo</c> Refer to docs URI link web page.
+            </summary>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.Sub">
+            <value>
+            <c>Sub</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.Name">
+            <value>
+            <c>Name</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.GivenName">
+            <value>
+            <c>GivenName</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.FamilyName">
+            <value>
+            <c>FamilyName</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.Picture">
+            <value>
+            <c>Picture</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.Email">
+            <value>
+            <c>Email</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.EmailVerified">
+            <value>
+            <c>EmailVerified</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleUserInfo.Locale">
+            <value>
+            <c>Locale</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en#obtainuserinfo</seealso>
+        </member>
+    </members>
+</doc>
