@@ -34,3 +34,4 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\obj\Debug\net6.0\EpicAkSTestBed.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\obj\Debug\net6.0\EpicAkSTestBed.genruntimeconfig.cache
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\obj\Debug\net6.0\ref\EpicAkSTestBed.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSTestBed\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.xml

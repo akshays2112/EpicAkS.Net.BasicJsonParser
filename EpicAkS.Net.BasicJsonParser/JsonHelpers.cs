@@ -3,9 +3,18 @@ using System.Reflection;
 
 namespace EpicAkS.Net.BasicJsonParser
 {
+    /// <summary>
+    /// <c>JsonHelpers</c> Used to skip a property for json purposes.
+    /// </summary>
     public static class JsonHelpers
     {
+        /// <value>
+        /// <c>AccessToken</c> Refer to docs URI link web page.
+        /// </value>
         public static string NamespaceScoped { get; set; } = "EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.";
+        /// <value>
+        /// <c>AccessToken</c> Refer to docs URI link web page.
+        /// </value>
         public static bool NoWhitespace { get; set; } = true;
 
         private class JsonArrayItem
@@ -31,6 +40,14 @@ namespace EpicAkS.Net.BasicJsonParser
             internal List<JsonProperty> JsonProperties { get; set; } = new();
             internal JsonProperty? ParentJsonProperty { get; set; } = null;
             internal JsonArrayItem? ParentJsonArrayItem { get; set; }
+        }
+
+        /// <value>
+        /// <c>AccessToken</c> Refer to docs URI link web page.
+        /// </value>
+        public static void Initialize()
+        {
+            _ = Serialize(new WebAPIClasses.ServiceProviders.JsonHelpersInitializeEmptyClass.EmptyClass());
         }
 
         private static void SetPropertyValue(object obj, PropertyInfo propertyInfo, JsonProperty jsonProperty)
@@ -137,54 +154,6 @@ namespace EpicAkS.Net.BasicJsonParser
             {
                 propertyInfo.SetValue(obj, Char.Parse(jsonProperty?.Value ?? String.Empty));
             }
-            //else if (propertyType == typeof(string[]) || propertyType == typeof(String[]))
-            //{
-            //    List<string> list = new();
-            //    string tmp = String.Empty;
-            //    propertyInfo.SetValue(obj, jsonProperty.Value);
-            //}
-
-
-
-            // ***************** NEED TO DO THIS FOR ARRAYS **************************
-            //else if (propertyType == typeof(string[]) || propertyType == typeof(String[]))
-            //{
-            //    //need to do this
-            //}
-            //if (propertyType == typeof(bool[]) || propertyType == typeof(Boolean[]))
-            //    return JsonType.BooleanArray;
-            //if (propertyType == typeof(int[]) || propertyType == typeof(Int16[]) ||
-            //    propertyType == typeof(Int32[]) || propertyType == typeof(Int64[]) ||
-            //    propertyType == typeof(IntPtr[]) ||
-            //    propertyType == typeof(uint[]) || propertyType == typeof(UInt16[]) ||
-            //    propertyType == typeof(UInt32[]) || propertyType == typeof(UInt64[]) ||
-            //    propertyType == typeof(UIntPtr[]))
-            //    return JsonType.IntegerArray;
-            //if (propertyType == typeof(double[]) || propertyType == typeof(Double[]))
-            //    return JsonType.DoubleArray;
-            //if (propertyType == typeof(float[]) || propertyType == typeof(long[]) ||
-            //    propertyType == typeof(ulong[]) || propertyType == typeof(decimal[]) ||
-            //    propertyType == typeof(Decimal[]))
-            //    return JsonType.NumberArray;
-            //if (propertyType == typeof(byte[]) || propertyType == typeof(Byte[]))
-            //    return JsonType.ByteArray;
-            //if ((propertyType == typeof(char[]) || propertyType == typeof(Char[])))
-            //    return JsonType.CharArray;
-
-            //******************************
-            //Class causes Recursion to be needed so need to pull all this out and write a func that calls itself
-            //******************************
-            //if (propertyType.IsClass)
-            //{
-            //    if (propertyType.IsArray)
-            //    {
-            //        //need to do this
-            //    }
-            //    else
-            //    {
-            //        //need to do this
-            //    }
-            //}
         }
 
         private static void FillObjectWithValuesFromJsonObject(object obj, JsonObject? jsonObject)
@@ -476,6 +445,9 @@ namespace EpicAkS.Net.BasicJsonParser
             return (jsonObject, -1);
         }
 
+        /// <value>
+        /// <c>AccessToken</c> Refer to docs URI link web page.
+        /// </value>
         public static T? Deserialize<T>(T obj, string json)
         {
             if (obj is null || string.IsNullOrWhiteSpace(json))
@@ -683,6 +655,9 @@ namespace EpicAkS.Net.BasicJsonParser
             json.Clear().Append(NoWhitespace ? $"{(tmp[^1] == ',' ? tmp[0..^1] : tmp)}]," : $"{(tmp[^2..] == ", " ? tmp[0..^2] : tmp)} ], ");
         }
 
+        /// <value>
+        /// <c>AccessToken</c> Refer to docs URI link web page.
+        /// </value>
         public static string? Serialize(object? obj)
         {
             if (obj is null)

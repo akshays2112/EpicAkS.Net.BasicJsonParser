@@ -22,3 +22,4 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\refint\EpicAkS.Net.BasicJsonParser.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\ref\EpicAkS.Net.BasicJsonParser.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.xml

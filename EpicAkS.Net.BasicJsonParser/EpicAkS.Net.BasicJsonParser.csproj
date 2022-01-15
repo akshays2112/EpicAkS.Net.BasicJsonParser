@@ -12,10 +12,8 @@
 		<!-- <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow> -->
 	</PropertyGroup>
 
-	<!--
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<DocumentationFile>C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser.xml</DocumentationFile>
 	</PropertyGroup>
-	-->
 
 </Project>

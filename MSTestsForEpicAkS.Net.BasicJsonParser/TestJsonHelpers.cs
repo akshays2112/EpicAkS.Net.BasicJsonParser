@@ -8,17 +8,9 @@ namespace MSTestsForEpicAkS.Net.BasicJsonParser
     public class TestJsonHelpers
     {
         [TestInitialize]
-        public void InitializeUnitTests() => JsonHelpers.NamespaceScoped = "EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.";
+        public void InitializeUnitTests() => JsonHelpers.Initialize();
 
         #region Serialize Tests
-
-        [TestMethod]
-        public void LoadRipClassesCache_StubEmptyClassJ5()
-        {
-            JsonHelpers.NoWhitespace = true;
-            J5 j5 = new();
-            Assert.IsTrue(JsonHelpers.Serialize(j5)?.Equals("{}"));
-        }
 
         [TestMethod]
         public void Test1_Serialize_X1()
@@ -98,6 +90,14 @@ namespace MSTestsForEpicAkS.Net.BasicJsonParser
             J7? j7 = new();
             j7 = JsonHelpers.Deserialize(j7, "{\"j7_prop1\":[{\"j6_prop1\":[\"Swiggy\",\"Zomato\"},{\"j6_prop1\":[\"Dad\",\"Mom\"}]}");
             Assert.IsTrue(j7?.J7_Prop1[1].J6_Prop1[1] == "Mom");
+        }
+
+        [TestMethod]
+        public void Test7_Deserialize_J8()
+        {
+            J8? j8 = new();
+            j8 = JsonHelpers.Deserialize(j8, "{\"j8_prop1\":[{\"j6_prop1\":[\"Swiggy\",\"Zomato\"},{\"j6_prop1\":[\"Dad\",\"Mom\"}]}");
+            Assert.IsTrue(j8?.J8_Prop1[1].J6_Prop1[1] == "Mom");
         }
 
         [TestMethod]
