@@ -17,6 +17,8 @@ namespace EpicAkS.Net.BasicJsonParser
         /// </value>
         public static bool NoWhitespace { get; set; } = true;
 
+        private static bool initializeOnceOnly = false;
+
         private class JsonArrayItem
         {
             internal string? Value { get; set; }
@@ -47,7 +49,11 @@ namespace EpicAkS.Net.BasicJsonParser
         /// </value>
         public static void Initialize()
         {
-            _ = Serialize(new WebAPIClasses.ServiceProviders.JsonHelpersInitializeEmptyClass.EmptyClass());
+            if (!initializeOnceOnly)
+            {
+                initializeOnceOnly = true;
+                _ = Serialize(new WebAPIClasses.ServiceProviders.JsonHelpersInitializeEmptyClass.EmptyClass());
+            }
         }
 
         private static void SetPropertyValue(object obj, PropertyInfo propertyInfo, JsonProperty jsonProperty)

@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "ziR82CVHyWEGG9ijlG5Wtvw0LJ3C7tnBTiSEGBZDBcQvceSRu2bnyDfahYFr4CmroTTEGhNcRJKmB1jFXU0m+w==",
+  "dgSpecHash": "54qoAhBnC0PZs6BfGcI8+myaYOHjFk8KG7GeqhclSFzEB7EOwg+EPPifsn5mybwQqCKvVNeyJFR6KV9pb/rLEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\microsoft.codecoverage\\17.1.0-preview-20211130-02\\microsoft.codecoverage.17.1.0-preview-20211130-02.nupkg.sha512",
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0-preview-20211130-02\\microsoft.net.test.sdk.17.1.0-preview-20211130-02.nupkg.sha512",
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

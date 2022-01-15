@@ -4,6 +4,56 @@
         <name>EpicAkS.Net.BasicJsonParser</name>
     </assembly>
     <members>
+        <member name="T:EpicAkS.Net.BasicJsonParser.EpicAkSPropertyNameAliasAttribute">
+            <summary>
+            <c>EpicAkSPropertyNameAliasAttribute</c> Used to rename a property for json purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.EpicAkSPropertyNameAliasAttribute.Alias">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+        </member>
+        <member name="M:EpicAkS.Net.BasicJsonParser.EpicAkSPropertyNameAliasAttribute.#ctor(System.String)">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.EpicAkSSkipPropertyAttribute">
+            <summary>
+            <c>EpicAkSSkipPropertyAttribute</c> Used to skip a property for json purposes.
+            </summary>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.JsonHelpers">
+            <summary>
+            <c>JsonHelpers</c> Used to skip a property for json purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.JsonHelpers.NamespaceScoped">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.JsonHelpers.NoWhitespace">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+        </member>
+        <member name="M:EpicAkS.Net.BasicJsonParser.JsonHelpers.Initialize">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+        </member>
+        <member name="M:EpicAkS.Net.BasicJsonParser.JsonHelpers.Deserialize``1(``0,System.String)">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+        </member>
+        <member name="M:EpicAkS.Net.BasicJsonParser.JsonHelpers.Serialize(System.Object)">
+            <value>
+            <c>AccessToken</c> Refer to docs URI link web page.
+            </value>
+        </member>
         <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Google.GoogleAccessToken">
             <summary>
             <c>GoogleAccessToken</c> Refer to docs URI link web page.
@@ -328,6 +378,12 @@
             <seealso>https://developer.spotify.com/documentation/web-api/reference/#/</seealso>
         </member>
         <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Spotify.AlbumObject.Type">
+            <value>
+            <c>AlbumType</c> Refer to docs URI link web page.
+            </value>
+            <seealso>https://developer.spotify.com/documentation/web-api/reference/#/</seealso>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.Spotify.AlbumObject.Uri">
             <value>
             <c>AlbumType</c> Refer to docs URI link web page.
             </value>
@@ -2474,6 +2530,1166 @@
             <c>AlbumType</c> Refer to docs URI link web page.
             </value>
             <seealso>https://developer.spotify.com/documentation/web-api/reference/#/</seealso>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1">
+            <summary>
+            <c>X1</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop2">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop3">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop4">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop5">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop6">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop7">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop8">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop9">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop10">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop11">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop12">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop13">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop14">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop15">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop16">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop17">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop18">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop19">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop20">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.X1.X1_Prop21">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2">
+            <summary>
+            <c>A2</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop2">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop3">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop4">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop5">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop6">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop7">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop8">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop9">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop10">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop11">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop12">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop13">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop14">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop15">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop16">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop17">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop18">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.A2.A2_Prop19">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J3">
+            <summary>
+            <c>J3</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J3.J3_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J3.J3_Prop2">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J3.J3_Prop3">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J3.J3_Prop4">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J4">
+            <summary>
+            <c>J4</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J4.J4_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.IJ6">
+            <summary>
+            <c>IJ6</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.IJ6.J6_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J6">
+            <summary>
+            <c>J6</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J6.J6_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J7">
+            <summary>
+            <c>J7</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J7.J7_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J8">
+            <summary>
+            <c>J8</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.J8.J8_Prop1">
+            <value>
+            <c>AccessToken</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Strings">
+            <summary>
+            <c>TC_Strings</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Strings.TC_Strings_String_Prop1">
+            <value>
+            <c>TC_Strings_String_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Strings.TC_Strings_NullableString_Prop2">
+            <value>
+            <c>TC_Strings_NullableString_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Strings.TC_Strings_String_Prop3">
+            <value>
+            <c>TC_Strings_String_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Strings.TC_Strings_NullableString_Prop4">
+            <value>
+            <c>TC_Strings_NullableString_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays">
+            <summary>
+            <c>TC_StringArray</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_StringArray_Prop1">
+            <value>
+            <c>TC_StringArrays_StringArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_NullableStringArray_Prop2">
+            <value>
+            <c>TC_StringArrays_NullableStringArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_StringArrayNullable_Prop3">
+            <value>
+            <c>TC_StringArrays_StringArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_NullableStringArrayNullable_Prop4">
+            <value>
+            <c>TC_StringArrays_NullableStringArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_StringArray_Prop5">
+            <value>
+            <c>TC_StringArrays_StringArray_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_NullableStringArray_Prop6">
+            <value>
+            <c>TC_StringArrays_NullableStringArray_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_StringArrayNullable_Prop7">
+            <value>
+            <c>TC_StringArrays_StringArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_StringArrays.TC_StringArrays_NullableStringArrayNullable_Prop8">
+            <value>
+            <c>TC_StringArrays_NullableStringArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bools">
+            <summary>
+            <c>TC_Bools</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bools.TC_Bools_Bool_Prop1">
+            <value>
+            <c>TC_Bools_Bool_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bools.TC_Bools_NullableBool_Prop2">
+            <value>
+            <c>TC_Bools_NullableBool_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bools.TC_Bools_Boolean_Prop3">
+            <value>
+            <c>TC_Bools_Boolean_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bools.TC_Bools_NullableBoolean_Prop4">
+            <value>
+            <c>TC_Bools_NullableBoolean_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays">
+            <summary>
+            <c>TC_BoolArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_BoolArray_Prop1">
+            <value>
+            <c>TC_BoolArrays_BoolArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_NullableBoolArray_Prop2">
+            <value>
+            <c>TC_BoolArrays_NullableBoolArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_BoolArrayNullable_Prop3">
+            <value>
+            <c>TC_BoolArrays_BoolArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_NullableBoolArrayNullable_Prop4">
+            <value>
+            <c>TC_BoolArrays_NullableBoolArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_BooleanArray_Prop5">
+            <value>
+            <c>TC_BoolArrays_BooleanArray_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_NullableBooleanArray_Prop6">
+            <value>
+            <c>TC_BoolArrays_NullableBooleanArray_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_BooleanArrayNullable_Prop7">
+            <value>
+            <c>TC_BoolArrays_BooleanArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_BoolArrays.TC_BoolArrays_NullableBooleanArrayNullable_Prop8">
+            <value>
+            <c>TC_BoolArrays_NullableBooleanArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints">
+            <summary>
+            <c>TC_Ints</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_Int_Prop1">
+            <value>
+            <c>TC_Ints_Int_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_NullableInt_Prop2">
+            <value>
+            <c>TC_Ints_NullableInt_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_Int16_Prop3">
+            <value>
+            <c>TC_Ints_Int16_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_NullableInt16_Prop4">
+            <value>
+            <c>TC_Ints_NullableInt16_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_Int32_Prop5">
+            <value>
+            <c>TC_Ints_Int32_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_NullableInt32_Prop6">
+            <value>
+            <c>TC_Ints_NullableInt32_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_Int64_Prop7">
+            <value>
+            <c>TC_Ints_Int64_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_NullableInt64_Prop8">
+            <value>
+            <c>TC_Ints_NullableInt64_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_IntPtr_Prop9">
+            <value>
+            <c>TC_Ints_IntPtr_Prop9</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ints.TC_Ints_NullableIntPtr_Prop10">
+            <value>
+            <c>TC_Ints_NullableIntPtr_Prop10</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays">
+            <summary>
+            <c>TC_IntArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_IntArray_Prop1">
+            <value>
+            <c>TC_IntArrays_IntArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableIntArray_Prop2">
+            <value>
+            <c>TC_IntArrays_NullableIntArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_IntArrayNullable_Prop3">
+            <value>
+            <c>TC_IntArrays_IntArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableIntArrayNullable_Prop4">
+            <value>
+            <c>TC_IntArrays_NullableIntArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_Int16Array_Prop5">
+            <value>
+            <c>TC_IntArrays_Int16Array_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableInt16Array_Prop6">
+            <value>
+            <c>TC_IntArrays_NullableInt16Array_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_Int16ArrayNullable_Prop7">
+            <value>
+            <c>TC_IntArrays_Int16ArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableInt16ArrayNullable_Prop8">
+            <value>
+            <c>TC_IntArrays_NullableInt16ArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableIntArrayNullable_Prop9">
+            <value>
+            <c>TC_IntArrays_NullableIntArrayNullable_Prop9</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_Int32Array_Prop10">
+            <value>
+            <c>TC_IntArrays_Int32Array_Prop10</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableInt32Array_Prop11">
+            <value>
+            <c>TC_IntArrays_NullableInt32Array_Prop11</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_Int32ArrayNullable_Prop12">
+            <value>
+            <c>TC_IntArrays_Int32ArrayNullable_Prop12</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableInt32ArrayNullable_Prop13">
+            <value>
+            <c>TC_IntArrays_NullableInt32ArrayNullable_Prop13</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_Int64Array_Prop14">
+            <value>
+            <c>TC_IntArrays_Int64Array_Prop14</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableInt64Array_Prop15">
+            <value>
+            <c>TC_IntArrays_NullableInt64Array_Prop15</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_Int64ArrayNullable_Prop16">
+            <value>
+            <c>TC_IntArrays_Int64ArrayNullable_Prop16</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableInt64ArrayNullable_Prop17">
+            <value>
+            <c>TC_IntArrays_NullableInt64ArrayNullable_Prop17</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_IntPtrArray_Prop14">
+            <value>
+            <c>TC_IntArrays_IntPtrArray_Prop14</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableIntPtrArray_Prop15">
+            <value>
+            <c>TC_IntArrays_NullableIntPtrArray_Prop15</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_IntPtrArrayNullable_Prop16">
+            <value>
+            <c>TC_IntArrays_IntPtrArrayNullable_Prop16</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_IntArrays.TC_IntArrays_NullableIntPtrArrayNullable_Prop17">
+            <value>
+            <c>TC_IntArrays_NullableIntPtrArrayNullable_Prop17</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts">
+            <summary>
+            <c>TC_UInts</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_UInt_Prop1">
+            <value>
+            <c>TC_UInts_UInt_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_NullableUInt_Prop2">
+            <value>
+            <c>TC_UInts_NullableUInt_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_UInt16_Prop3">
+            <value>
+            <c>TC_UInts_UInt16_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_NullableUInt16_Prop4">
+            <value>
+            <c>TC_UInts_NullableUInt16_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_UInt32_Prop5">
+            <value>
+            <c>TC_UInts_UInt32_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_NullableUInt32_Prop6">
+            <value>
+            <c>TC_UInts_NullableUInt32_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_UInt64_Prop7">
+            <value>
+            <c>TC_UInts_UInt64_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_NullableUInt64_Prop8">
+            <value>
+            <c>TC_UInts_NullableUInt64_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_UIntPtr_Prop9">
+            <value>
+            <c>TC_UInts_UIntPtr_Prop9</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UInts.TC_UInts_NullableUIntPtr_Prop10">
+            <value>
+            <c>TC_UInts_NullableUIntPtr_Prop10</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays">
+            <summary>
+            <c>TC_UIntArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UIntArray_Prop1">
+            <value>
+            <c>TC_UIntArrays_UIntArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUIntArray_Prop2">
+            <value>
+            <c>TC_UIntArrays_NullableUIntArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UIntArrayNullable_Prop3">
+            <value>
+            <c>TC_UIntArrays_UIntArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUIntArrayNullable_Prop4">
+            <value>
+            <c>TC_UIntArrays_NullableUIntArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UInt16Array_Prop5">
+            <value>
+            <c>TC_UIntArrays_UInt16Array_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUInt16Array_Prop6">
+            <value>
+            <c>TC_UIntArrays_NullableUInt16Array_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UInt16ArrayNullable_Prop7">
+            <value>
+            <c>TC_UIntArrays_UInt16ArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUInt16ArrayNullable_Prop8">
+            <value>
+            <c>TC_UIntArrays_NullableUInt16ArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUIntArrayNullable_Prop9">
+            <value>
+            <c>TC_UIntArrays_NullableUIntArrayNullable_Prop9</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UInt32Array_Prop10">
+            <value>
+            <c>TC_UIntArrays_UInt32Array_Prop10</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUInt32Array_Prop11">
+            <value>
+            <c>TC_UIntArrays_NullableUInt32Array_Prop11</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UInt32ArrayNullable_Prop12">
+            <value>
+            <c>TC_UIntArrays_UInt32ArrayNullable_Prop12</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUInt32ArrayNullable_Prop13">
+            <value>
+            <c>TC_UIntArrays_NullableUInt32ArrayNullable_Prop13</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UInt64Array_Prop14">
+            <value>
+            <c>TC_UIntArrays_UInt64Array_Prop14</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUInt64Array_Prop15">
+            <value>
+            <c>TC_UIntArrays_NullableUInt64Array_Prop15</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UInt64ArrayNullable_Prop16">
+            <value>
+            <c>TC_UIntArrays_UInt64ArrayNullable_Prop16</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUInt64ArrayNullable_Prop17">
+            <value>
+            <c>TC_UIntArrays_NullableUInt64ArrayNullable_Prop17</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UIntPtrArray_Prop14">
+            <value>
+            <c>TC_UIntArrays_UIntPtrArray_Prop14</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUIntPtrArray_Prop15">
+            <value>
+            <c>TC_UIntArrays_NullableUIntPtrArray_Prop15</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_UIntPtrArrayNullable_Prop16">
+            <value>
+            <c>TC_UIntArrays_UIntPtrArrayNullable_Prop16</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UIntArrays.TC_UIntArrays_NullableUIntPtrArrayNullable_Prop17">
+            <value>
+            <c>TC_UIntArrays_NullableUIntPtrArrayNullable_Prop17</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Doubles">
+            <summary>
+            <c>TC_Doubles</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Doubles.TC_Doubles_Double_Prop1">
+            <value>
+            <c>TC_Doubles_Double_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Doubles.TC_Doubles_NullableDouble_Prop2">
+            <value>
+            <c>TC_Doubles_NullableDouble_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Doubles.TC_Doubles_Double_Prop3">
+            <value>
+            <c>TC_Doubles_Double_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Doubles.TC_Doubles_NullableDouble_Prop4">
+            <value>
+            <c>TC_Doubles_NullableDouble_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays">
+            <summary>
+            <c>TC_DoubleArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_DoubleArray_Prop1">
+            <value>
+            <c>TC_DoubleArrays_DoubleArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_NullableDoubleArray_Prop2">
+            <value>
+            <c>TC_DoubleArrays_NullableDoubleArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_DoubleArrayNullable_Prop3">
+            <value>
+            <c>TC_DoubleArrays_DoubleArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_NullableDoubleArrayNullable_Prop4">
+            <value>
+            <c>TC_DoubleArrays_NullableDoubleArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_DoubleArray_Prop5">
+            <value>
+            <c>TC_DoubleArrays_DoubleArray_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_NullableDoubleArray_Prop6">
+            <value>
+            <c>TC_DoubleArrays_NullableDoubleArray_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_DoubleArrayNullable_Prop7">
+            <value>
+            <c>TC_DoubleArrays_DoubleArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_NullableDoubleArrayNullable_Prop8">
+            <value>
+            <c>TC_DoubleArrays_NullableDoubleArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DoubleArrays.TC_DoubleArrays_NullableDoubleArrayNullable_Prop9">
+            <value>
+            <c>TC_DoubleArrays_NullableDoubleArrayNullable_Prop9</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Floats">
+            <summary>
+            <c>TC_Floats</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Floats.TC_Floats_Float_Prop1">
+            <value>
+            <c>TC_Floats_Float_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Floats.TC_Floats_NullableFloat_Prop2">
+            <value>
+            <c>TC_Floats_NullableFloat_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_FloatArrays">
+            <summary>
+            <c>TC_FloatArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_FloatArrays.TC_FloatArrays_FloatArray_Prop1">
+            <value>
+            <c>TC_FloatArrays_FloatArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_FloatArrays.TC_FloatArrays_NullableFloatArray_Prop2">
+            <value>
+            <c>TC_FloatArrays_NullableFloatArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_FloatArrays.TC_FloatArrays_FloatArrayNullable_Prop3">
+            <value>
+            <c>TC_FloatArrays_FloatArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_FloatArrays.TC_FloatArrays_NullableFloatArrayNullable_Prop4">
+            <value>
+            <c>TC_FloatArrays_NullableFloatArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Longs">
+            <summary>
+            <c>TC_Longs</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Longs.TC_Longs_Long_Prop1">
+            <value>
+            <c>TC_Longs_Long_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Longs.TC_Longs_NullableLong_Prop2">
+            <value>
+            <c>TC_Longs_NullableLong_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_LongArrays">
+            <summary>
+            <c>TC_LongArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_LongArrays.TC_LongArrays_LongArray_Prop1">
+            <value>
+            <c>TC_LongArrays_LongArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_LongArrays.TC_LongArrays_NullableLongArray_Prop2">
+            <value>
+            <c>TC_LongArrays_NullableLongArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_LongArrays.TC_LongArrays_LongArrayNullable_Prop3">
+            <value>
+            <c>TC_LongArrays_LongArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_LongArrays.TC_LongArrays_NullableLongArrayNullable_Prop4">
+            <value>
+            <c>TC_LongArrays_NullableLongArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ulongs">
+            <summary>
+            <c>TC_Ulongs</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ulongs.TC_Ulongs_Ulong_Prop1">
+            <value>
+            <c>TC_Ulongs_Ulong_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Ulongs.TC_Ulongs_NullableUlong_Prop2">
+            <value>
+            <c>TC_Ulongs_NullableUlong_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UlongArrays">
+            <summary>
+            <c>TC_UlongArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UlongArrays.TC_UlongArrays_UlongArray_Prop1">
+            <value>
+            <c>TC_UlongArrays_UlongArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UlongArrays.TC_UlongArrays_NullableUlongArray_Prop2">
+            <value>
+            <c>TC_UlongArrays_NullableUlongArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UlongArrays.TC_UlongArrays_UlongArrayNullable_Prop3">
+            <value>
+            <c>TC_UlongArrays_UlongArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_UlongArrays.TC_UlongArrays_NullableUlongArrayNullable_Prop4">
+            <value>
+            <c>TC_UlongArrays_NullableUlongArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Decimals">
+            <summary>
+            <c>TC_Decimals</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Decimals.TC_Decimals_Decimal_Prop1">
+            <value>
+            <c>TC_Decimals_Decimal_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Decimals.TC_Decimals_NullableDecimal_Prop2">
+            <value>
+            <c>TC_Decimals_NullableDecimal_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Decimals.TC_Decimals_Decimal_Prop3">
+            <value>
+            <c>TC_Decimals_Decimal_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Decimals.TC_Decimals_NullableDecimal_Prop4">
+            <value>
+            <c>TC_Decimals_NullableDecimal_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays">
+            <summary>
+            <c>TC_DecimalArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_DecimalArray_Prop1">
+            <value>
+            <c>TC_DecimalArrays_DecimalArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_NullableDecimalArray_Prop2">
+            <value>
+            <c>TC_DecimalArrays_NullableDecimalArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_DecimalArrayNullable_Prop3">
+            <value>
+            <c>TC_DecimalArrays_DecimalArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_NullableDecimalArrayNullable_Prop4">
+            <value>
+            <c>TC_DecimalArrays_NullableDecimalArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_DecimalArray_Prop5">
+            <value>
+            <c>TC_DecimalArrays_DecimalArray_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_NullableDecimalArray_Prop6">
+            <value>
+            <c>TC_DecimalArrays_NullableDecimalArray_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_DecimalArrayNullable_Prop7">
+            <value>
+            <c>TC_DecimalArrays_DecimalArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_DecimalArrays.TC_DecimalArrays_NullableDecimalArrayNullable_Prop8">
+            <value>
+            <c>TC_DecimalArrays_NullableDecimalArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bytes">
+            <summary>
+            <c>TC_Bytes</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bytes.TC_Bytes_Byte_Prop1">
+            <value>
+            <c>TC_Bytes_Byte_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bytes.TC_Bytes_NullableByte_Prop2">
+            <value>
+            <c>TC_Bytes_NullableByte_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bytes.TC_Bytes_Byte_Prop3">
+            <value>
+            <c>TC_Bytes_Byte_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Bytes.TC_Bytes_NullableByte_Prop4">
+            <value>
+            <c>TC_Bytes_NullableByte_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays">
+            <summary>
+            <c>TC_ByteArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_ByteArray_Prop1">
+            <value>
+            <c>TC_ByteArrays_ByteArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_NullableByteArray_Prop2">
+            <value>
+            <c>TC_ByteArrays_NullableByteArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_ByteArrayNullable_Prop3">
+            <value>
+            <c>TC_ByteArrays_ByteArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_NullableByteArrayNullable_Prop4">
+            <value>
+            <c>TC_ByteArrays_NullableByteArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_ByteArray_Prop5">
+            <value>
+            <c>TC_ByteArrays_ByteArray_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_NullableByteArray_Prop6">
+            <value>
+            <c>TC_ByteArrays_NullableByteArray_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_ByteArrayNullable_Prop7">
+            <value>
+            <c>TC_ByteArrays_ByteArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_ByteArrays.TC_ByteArrays_NullableByteArrayNullable_Prop8">
+            <value>
+            <c>TC_ByteArrays_NullableByteArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Chars">
+            <summary>
+            <c>TC_Chars</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Chars.TC_Chars_Char_Prop1">
+            <value>
+            <c>TC_Chars_Char_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Chars.TC_Chars_NullableChar_Prop2">
+            <value>
+            <c>TC_Chars_NullableChar_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Chars.TC_Chars_Char_Prop3">
+            <value>
+            <c>TC_Chars_Char_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_Chars.TC_Chars_NullableChar_Prop4">
+            <value>
+            <c>TC_Chars_NullableChar_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="T:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays">
+            <summary>
+            <c>TC_CharArrays</c> Only for testing purposes.
+            </summary>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_CharArray_Prop1">
+            <value>
+            <c>TC_CharArrays_CharArray_Prop1</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_NullableCharArray_Prop2">
+            <value>
+            <c>TC_CharArrays_NullableCharArray_Prop2</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_CharArrayNullable_Prop3">
+            <value>
+            <c>TC_CharArrays_CharArrayNullable_Prop3</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_NullableCharArrayNullable_Prop4">
+            <value>
+            <c>TC_CharArrays_NullableCharArrayNullable_Prop4</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_CharArray_Prop5">
+            <value>
+            <c>TC_CharArrays_CharArray_Prop5</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_NullableCharArray_Prop6">
+            <value>
+            <c>TC_CharArrays_NullableCharArray_Prop6</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_CharArrayNullable_Prop7">
+            <value>
+            <c>TC_CharArrays_CharArrayNullable_Prop7</c> Only for testing purposes.
+            </value>
+        </member>
+        <member name="P:EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork.TC_CharArrays.TC_CharArrays_NullableCharArrayNullable_Prop8">
+            <value>
+            <c>TC_CharArrays_NullableCharArrayNullable_Prop8</c> Only for testing purposes.
+            </value>
         </member>
     </members>
 </doc>
