@@ -3,6 +3,7 @@ using EpicAkS.Net.BasicJsonParser;
 using EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork;
 
 JsonHelpers.NamespaceScoped = "EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.";
+JsonHelpers.NoWhitespace = true;
 
 X1 x1 = new();
 x1.X1_Prop1 = "X1_Prop1_Value";

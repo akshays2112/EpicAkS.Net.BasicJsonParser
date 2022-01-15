@@ -6,11 +6,22 @@ namespace EpicAkS.Net.BasicJsonParser
     public static class JsonHelpers
     {
         public static string NamespaceScoped { get; set; } = "EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.";
+        public static bool NoWhitespace { get; set; } = true;
+
+        private class JsonArrayItem
+        {
+            internal string? Value { get; set; }
+            internal List<JsonArrayItem>? JsonArrayItems { get; set; }
+            internal JsonObject? JsonObjectValue { get; set; }
+            internal JsonArrayItem? ParentJsonArrayItem { get; set; }
+            internal JsonProperty? ParentJsonProperty { get; set; }
+        }
 
         private class JsonProperty
         {
             internal string? Name { get; set; }
             internal string? Value { get; set; }
+            internal List<JsonArrayItem>? JsonArrayItems { get; set; }
             internal JsonObject? JsonObjectValue { get; set; }
             internal JsonObject? ParentJsonObject { get; set; }
         }
@@ -19,6 +30,7 @@ namespace EpicAkS.Net.BasicJsonParser
         {
             internal List<JsonProperty> JsonProperties { get; set; } = new();
             internal JsonProperty? ParentJsonProperty { get; set; } = null;
+            internal JsonArrayItem? ParentJsonArrayItem { get; set; }
         }
 
         private static void SetPropertyValue(object obj, PropertyInfo propertyInfo, JsonProperty jsonProperty)
@@ -110,7 +122,8 @@ namespace EpicAkS.Net.BasicJsonParser
             }
             else if (propertyType == typeof(byte) || propertyType == typeof(byte?))
             {
-                propertyInfo.SetValue(obj, byte.Parse(jsonProperty?.Value ?? String.Empty, System.Globalization.NumberStyles.HexNumber));
+                propertyInfo.SetValue(obj, Convert.FromBase64String(jsonProperty?.Value ?? String.Empty)?.FirstOrDefault());
+                //propertyInfo.SetValue(obj, byte.Parse(jsonProperty?.Value ?? String.Empty, System.Globalization.NumberStyles.HexNumber));
             }
             else if (propertyType == typeof(Byte) || propertyType == typeof(Byte?))
             {
@@ -124,6 +137,12 @@ namespace EpicAkS.Net.BasicJsonParser
             {
                 propertyInfo.SetValue(obj, Char.Parse(jsonProperty?.Value ?? String.Empty));
             }
+            //else if (propertyType == typeof(string[]) || propertyType == typeof(String[]))
+            //{
+            //    List<string> list = new();
+            //    string tmp = String.Empty;
+            //    propertyInfo.SetValue(obj, jsonProperty.Value);
+            //}
 
 
 
@@ -178,12 +197,12 @@ namespace EpicAkS.Net.BasicJsonParser
                     bool found = false;
                     foreach (Attribute attribute in propertyInfo.GetCustomAttributes())
                     {
-                        if (attribute is SkipPropertyAttribute skipProperty)
+                        if (attribute is EpicAkSSkipPropertyAttribute skipProperty)
                         {
                             found = true;
                             break;
                         }
-                        if (attribute is PropertyNameAliasAttribute propertyNameAlias)
+                        if (attribute is EpicAkSPropertyNameAliasAttribute propertyNameAlias)
                         {
                             foreach (JsonProperty jsonProperty in jsonObject.JsonProperties)
                             {
@@ -227,6 +246,116 @@ namespace EpicAkS.Net.BasicJsonParser
             }
         }
 
+        private static void ParseJsonArray(char[] jsonChars, JsonArrayItem? parentJsonArrayItem, JsonProperty? parentJsonProperty)
+        {
+            JsonArrayItem? jsonArrayItem = new();
+            if (parentJsonProperty is not null && parentJsonArrayItem is null)
+            {
+                parentJsonProperty.JsonArrayItems = new();
+                jsonArrayItem.ParentJsonProperty = parentJsonProperty;
+            }
+            else if(parentJsonArrayItem is not null)
+            {
+                parentJsonArrayItem.JsonArrayItems = new();
+                jsonArrayItem.ParentJsonArrayItem = parentJsonArrayItem;
+            }
+            else
+            {
+                return;
+            }
+            bool insideDoubleQuotes = false;
+            bool encounteredBackslash = false;
+            int arrayLevel = 0;
+            List<char> buffer = new();
+
+            for (int i = 0; i < jsonChars.Length; i++)
+            {
+                switch (jsonChars[i])
+                {
+                    case '{':
+                        buffer.Add(jsonChars[i]);
+                        break;
+                    case '}':
+                        buffer.Add(jsonChars[i]);
+                        if (jsonArrayItem is not null)
+                        {
+                            (jsonArrayItem.JsonObjectValue, _) = ParseJson(buffer.ToArray(), 0, null);
+                            if (jsonArrayItem.JsonObjectValue is not null)
+                            {
+                                jsonArrayItem.JsonObjectValue.ParentJsonArrayItem = jsonArrayItem;
+                            }
+                        }
+                        buffer.Clear();
+                        break;
+                    case '[':
+                        arrayLevel++;
+                        buffer.Add(jsonChars[++i]);
+                        break;
+                    case ']':
+                        arrayLevel--;
+                        if (arrayLevel == 0 && parentJsonArrayItem is not null)
+                        {
+                            ParseJsonArray(buffer.ToArray(), jsonArrayItem, null);
+                        }
+                        buffer.Clear();
+                        break;
+                    case '"':
+                        if (insideDoubleQuotes)
+                        {
+                            if (encounteredBackslash)
+                            {
+                                buffer.Add(jsonChars[i]);
+                            }
+                            else if(jsonArrayItem is not null)
+                            {
+                                jsonArrayItem.Value = new(buffer.ToArray());
+                                buffer.Clear();
+                                insideDoubleQuotes = false;
+                            }
+                        }
+                        else
+                        {
+                            insideDoubleQuotes = true;
+                        }
+                        break;
+                    case '\\':
+                        if (encounteredBackslash)
+                        {
+                            buffer.Add(jsonChars[i]);
+                        }
+                        encounteredBackslash = !encounteredBackslash;
+                        break;
+                    case ',':
+                        if (insideDoubleQuotes)
+                        {
+                            buffer.Add(jsonChars[i]);
+                        }
+                        else
+                        {
+                            JsonArrayItem? newJsonArrayItem = new();
+                            if (parentJsonProperty is not null && parentJsonArrayItem is null && jsonArrayItem is not null)
+                            {
+                                parentJsonProperty.JsonArrayItems?.Add(jsonArrayItem);
+                                newJsonArrayItem.ParentJsonProperty = parentJsonProperty;
+                            }
+                            else if (parentJsonArrayItem is not null && jsonArrayItem is not null)
+                            {
+                                parentJsonArrayItem.JsonArrayItems?.Add(jsonArrayItem);
+                                newJsonArrayItem.ParentJsonArrayItem = parentJsonArrayItem;
+                            }
+                            jsonArrayItem = newJsonArrayItem;
+                        }
+                        break;
+                    default:
+                        if (insideDoubleQuotes)
+                        {
+                            buffer.Add(jsonChars[i]);
+                        }
+                        break;
+                }
+            }
+        }
+
         private static (JsonObject? jsonObject, int pos) ParseJson(char[] jsonChars, int pos, JsonProperty? parentJsonProperty)
         {
             JsonObject? jsonObject = new();
@@ -264,6 +393,16 @@ namespace EpicAkS.Net.BasicJsonParser
                         {
                             return (jsonObject, pos);
                         }
+                        break;
+                    case '[':
+                        buffer.Add(jsonChars[++i]);
+                        break;
+                    case ']':
+                        if (currentJsonProperty is not null)
+                        {
+                            ParseJsonArray(buffer.ToArray(), null, currentJsonProperty);
+                        }
+                        buffer.Clear();
                         break;
                     case '"':
                         if (insideDoubleQuotes)
@@ -361,7 +500,7 @@ namespace EpicAkS.Net.BasicJsonParser
         {
             if (obj is null)
             {
-                json.Append("null, ");
+                json.Append(NoWhitespace ? "null," : "null, ");
                 return;
             }
 
@@ -370,11 +509,11 @@ namespace EpicAkS.Net.BasicJsonParser
             if (type is null || string.IsNullOrWhiteSpace(type.FullName) || 
                 (!string.IsNullOrWhiteSpace(NamespaceScoped) && !type.FullName.StartsWith(NamespaceScoped)))
             {
-                json.Append("null, ");
+                json.Append(NoWhitespace ? "null," : "null, ");
                 return;
             }
 
-            json.Append("{ ");
+            json.Append(NoWhitespace ? "{" : "{ ");
 
             foreach (Helpers.TypePropertyNameAlias typePropertyNameAlias in
                 Helpers.ClassesHavingTypePropertyNameAliases.FirstOrDefault<Helpers.ClassHavingTypePropertyNameAliases>(
@@ -384,7 +523,7 @@ namespace EpicAkS.Net.BasicJsonParser
             }
 
             string tmp = json.ToString();
-            json.Clear().Append($"{(tmp[^2..] == ", " ? tmp[0..^2] : tmp)} }}, ");
+            json.Clear().Append(NoWhitespace ? $"{(tmp[^1] == ',' ? tmp[0..^1] : tmp)}}}," : $"{(tmp[^2..] == ", " ? tmp[0..^2] : tmp)} }}, ");
         }
 
         private static void GetJsonStringForPropertyOfObjectByType(StringBuilder json, object obj,
@@ -392,18 +531,20 @@ namespace EpicAkS.Net.BasicJsonParser
         {
             if (string.IsNullOrWhiteSpace(typePropertyNameAlias.Name))
             {
-                json.Append("null, ");
+                json.Append(NoWhitespace ? "null," : "null, ");
                 return;
             }
 
-            json.Append($@"""{(string.IsNullOrWhiteSpace(typePropertyNameAlias.Alias) ?
+            json.Append(NoWhitespace ? $@"""{(string.IsNullOrWhiteSpace(typePropertyNameAlias.Alias) ?
+                    typePropertyNameAlias.Name : typePropertyNameAlias.Alias)}"":" :
+                    $@"""{(string.IsNullOrWhiteSpace(typePropertyNameAlias.Alias) ?
                     typePropertyNameAlias.Name : typePropertyNameAlias.Alias)}"" : ");
 
             object? objVal = typePropertyNameAlias.PropertyInfo.GetValue(obj, null);
 
             if (objVal is null)
             {
-                json.Append("null, ");
+                json.Append(NoWhitespace ? "null," : "null, ");
                 return;
             }
 
@@ -442,23 +583,23 @@ namespace EpicAkS.Net.BasicJsonParser
                     break;
                 case Helpers.JsonType.ByteArray:
                     if (objVal is byte[] data)
-                        json.Append($"\"{Convert.ToBase64String(data)}\", ");
+                        json.Append(NoWhitespace ? $"\"{Convert.ToBase64String(data)}\"," : $"\"{Convert.ToBase64String(data)}\", ");
                     else
-                        json.Append("null, ");
+                        json.Append(NoWhitespace ? "null," : "null, ");
                     break;
                 case Helpers.JsonType.ClassArray:
                     if (objVal is Array classArr)
                     {
-                        json.Append("[ ");
+                        json.Append(NoWhitespace ? "[" : "[ ");
                         foreach (object classItem in classArr)
                         {
                             GetJsonStringPrivate(json, classItem);
                         }
-                        json.Append(" ], ");
+                        json.Append(NoWhitespace ? "]," : " ], ");
                     }
                     else
                     {
-                        json.Append("null, ");
+                        json.Append(NoWhitespace ? "null," : "null, ");
                     }
                     break;
             }
@@ -468,7 +609,7 @@ namespace EpicAkS.Net.BasicJsonParser
         {
             if (objVal is null)
             {
-                json.Append("null, ");
+                json.Append(NoWhitespace ? "null," : "null, ");
                 return;
             }
 
@@ -479,24 +620,25 @@ namespace EpicAkS.Net.BasicJsonParser
                 case Helpers.JsonType.Char:
                 case Helpers.JsonType.CharArray:
                 case Helpers.JsonType.Other:
-                    json.Append($"\"{objVal}\", ");
+                    json.Append(NoWhitespace ? $"\"{objVal}\"," : $"\"{objVal}\", ");
                     break;
                 case Helpers.JsonType.Integer:
                 case Helpers.JsonType.IntegerArray:
                 case Helpers.JsonType.Double:
                 case Helpers.JsonType.DoubleArray:
-                    json.Append($"{objVal}, ");
+                    json.Append(NoWhitespace ? $"{objVal}," : $"{objVal}, ");
                     break;
                 case Helpers.JsonType.Number:
                 case Helpers.JsonType.NumberArray:
-                    json.Append($"{Convert.ToDouble(objVal)}, ");
+                    json.Append(NoWhitespace ? $"{Convert.ToDouble(objVal)}," : $"{Convert.ToDouble(objVal)}, ");
                     break;
                 case Helpers.JsonType.Boolean:
                 case Helpers.JsonType.BooleanArray:
-                    json.Append($"{objVal?.ToString()?.ToLower()}, ");
+                    json.Append(NoWhitespace ? $"{objVal?.ToString()?.ToLower()}," : $"{objVal?.ToString()?.ToLower()}, ");
                     break;
                 case Helpers.JsonType.Byte:
-                    json.Append($"\"{Convert.ToHexString(new byte[] { Convert.ToByte(objVal) })}\", ");
+                    json.Append(NoWhitespace ? $"\"{Convert.ToBase64String(new byte[] { Convert.ToByte(objVal) })}\"," :
+                        $"\"{Convert.ToBase64String(new byte[] { Convert.ToByte(objVal) })}\", ");
                     break;
             }
         }
@@ -505,11 +647,11 @@ namespace EpicAkS.Net.BasicJsonParser
         {
             if (obj is null)
             {
-                json.Append("null, ");
+                json.Append(NoWhitespace ? "null," : "null, ");
                 return;
             }
 
-            json.Append("[ ");
+            json.Append(NoWhitespace ? "[" : "[ ");
             if (typePropertyNameAlias.PropertyInfo.GetValue(obj, null) is Array arr)
             {
                 foreach (object objInArr in arr)
@@ -518,18 +660,18 @@ namespace EpicAkS.Net.BasicJsonParser
                 }
             }
             string tmp = json.ToString();
-            json.Clear().Append($"{(tmp[^2..] == ", " ? tmp[0..^2] : tmp)} ], ");
+            json.Clear().Append(NoWhitespace ? $"{(tmp[^2..] == "," ? tmp[0..^2] : tmp)}]," : $"{(tmp[^2..] == ", " ? tmp[0..^2] : tmp)} ], ");
         }
 
         private static void GetJsonForArray<T>(StringBuilder json, object obj, Helpers.TypePropertyNameAlias typePropertyNameAlias)
         {
             if (obj is null)
             {
-                json.Append("null, ");
+                json.Append(NoWhitespace ? "null," : "null, ");
                 return;
             }
 
-            json.Append("[ ");
+            json.Append(NoWhitespace ? "[" : "[ ");
             if (typePropertyNameAlias.PropertyInfo.GetValue(obj, null) is T[] arr)
             {
                 foreach (T val in arr)
@@ -538,7 +680,7 @@ namespace EpicAkS.Net.BasicJsonParser
                 }
             }
             string tmp = json.ToString();
-            json.Clear().Append($"{(tmp[^2..] == ", " ? tmp[0..^2] : tmp)} ], ");
+            json.Clear().Append(NoWhitespace ? $"{(tmp[^1] == ',' ? tmp[0..^1] : tmp)}]," : $"{(tmp[^2..] == ", " ? tmp[0..^2] : tmp)} ], ");
         }
 
         public static string? Serialize(object? obj)
@@ -551,7 +693,14 @@ namespace EpicAkS.Net.BasicJsonParser
             GetJsonStringPrivate(json, obj);
 
             string tmp = json.ToString();
-            return tmp[^2..] == ", " ? tmp[0..^2] : tmp;
+            if (NoWhitespace)
+            {
+                return tmp[^1] == ',' ? tmp[0..^1] : tmp;
+            }
+            else
+            {
+                return tmp[^2..] == ", " ? tmp[0..^2] : tmp;
+            }
         }
     }
 }

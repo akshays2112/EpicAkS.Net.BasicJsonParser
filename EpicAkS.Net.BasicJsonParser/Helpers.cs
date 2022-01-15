@@ -140,13 +140,13 @@ namespace EpicAkS.Net.BasicJsonParser
                 JsonType jsonType = GetJsonType(typePropertyInfo);
                 foreach (Attribute propertyNameAlias in typePropertyInfo.GetCustomAttributes())
                 {
-                    SkipPropertyAttribute? skipPropertyAttribute = propertyNameAlias as SkipPropertyAttribute;
+                    EpicAkSSkipPropertyAttribute? skipPropertyAttribute = propertyNameAlias as EpicAkSSkipPropertyAttribute;
                     if (skipPropertyAttribute is not null)
                     {
                         found = true;
                         continue;
                     }
-                    PropertyNameAliasAttribute? propertyNameAliasAttribute = propertyNameAlias as PropertyNameAliasAttribute;
+                    EpicAkSPropertyNameAliasAttribute? propertyNameAliasAttribute = propertyNameAlias as EpicAkSPropertyNameAliasAttribute;
                     if (propertyNameAliasAttribute is not null)
                     {
                         typePropertyNameAliases.Add(new(typePropertyInfo.Name, propertyNameAliasAttribute.Alias, typePropertyInfo, jsonType));
