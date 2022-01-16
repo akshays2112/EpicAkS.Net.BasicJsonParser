@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BaIebsKs4LLoTy3FKwPeBH3d4Jw0ERBWFH4XKVl8WSxfhvuXqGBbY/G2FdGqQiaGOLteIOgL549pqV5s7+/m/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\bogus\\34.0.1\\bogus.34.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

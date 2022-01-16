@@ -1,0 +1,200 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Release\net6.0\f7721514-0243-460f-b67a-f09e02f2c06f
+// command took 2.31s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Release\net6.0\f7721514-0243-460f-b67a-f09e02f2c06f
+// command took 12.73s and exited with 1
+// start dotnet build -c Release  --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Release\net6.0\f7721514-0243-460f-b67a-f09e02f2c06f
+// command took 1.53s and exited with 0
+// ***** Done, took 00:00:16 (16.84 sec)   *****
+// Found 1 benchmarks:
+//   EpicAkSBenchmarks.Check_Serialize_TC_Strings: DefaultJob
+
+// **************************
+// Benchmark: EpicAkSBenchmarks.Check_Serialize_TC_Strings: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "f7721514-0243-460f-b67a-f09e02f2c06f.dll" --benchmarkName "EpicAkSBenchamarking.EpicAkSBenchmarks.Check_Serialize_TC_Strings" --job "Default" --benchmarkId 0 in C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Release\net6.0\f7721514-0243-460f-b67a-f09e02f2c06f\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 137200.00 ns, 137.2000 us/op
+WorkloadJitting  1: 1 op, 119591000.00 ns, 119.5910 ms/op
+
+WorkloadPilot    1: 2 op, 27300.00 ns, 13.6500 us/op
+WorkloadPilot    2: 3 op, 13700.00 ns, 4.5667 us/op
+WorkloadPilot    3: 4 op, 12600.00 ns, 3.1500 us/op
+WorkloadPilot    4: 5 op, 13600.00 ns, 2.7200 us/op
+WorkloadPilot    5: 6 op, 14000.00 ns, 2.3333 us/op
+WorkloadPilot    6: 7 op, 15200.00 ns, 2.1714 us/op
+WorkloadPilot    7: 8 op, 22400.00 ns, 2.8000 us/op
+WorkloadPilot    8: 9 op, 17000.00 ns, 1.8889 us/op
+WorkloadPilot    9: 10 op, 16300.00 ns, 1.6300 us/op
+WorkloadPilot   10: 11 op, 22200.00 ns, 2.0182 us/op
+WorkloadPilot   11: 12 op, 24500.00 ns, 2.0417 us/op
+WorkloadPilot   12: 13 op, 24100.00 ns, 1.8538 us/op
+WorkloadPilot   13: 14 op, 20300.00 ns, 1.4500 us/op
+WorkloadPilot   14: 15 op, 22000.00 ns, 1.4667 us/op
+WorkloadPilot   15: 16 op, 49800.00 ns, 3.1125 us/op
+WorkloadPilot   16: 32 op, 50400.00 ns, 1.5750 us/op
+WorkloadPilot   17: 64 op, 83600.00 ns, 1.3062 us/op
+WorkloadPilot   18: 128 op, 159500.00 ns, 1.2461 us/op
+WorkloadPilot   19: 256 op, 352000.00 ns, 1.3750 us/op
+WorkloadPilot   20: 512 op, 635000.00 ns, 1.2402 us/op
+WorkloadPilot   21: 1024 op, 1236600.00 ns, 1.2076 us/op
+WorkloadPilot   22: 2048 op, 3011800.00 ns, 1.4706 us/op
+WorkloadPilot   23: 4096 op, 5237400.00 ns, 1.2787 us/op
+WorkloadPilot   24: 8192 op, 10220500.00 ns, 1.2476 us/op
+WorkloadPilot   25: 16384 op, 19599800.00 ns, 1.1963 us/op
+WorkloadPilot   26: 32768 op, 40395300.00 ns, 1.2328 us/op
+WorkloadPilot   27: 65536 op, 76906300.00 ns, 1.1735 us/op
+WorkloadPilot   28: 131072 op, 140463500.00 ns, 1.0717 us/op
+WorkloadPilot   29: 262144 op, 256752200.00 ns, 979.4319 ns/op
+WorkloadPilot   30: 524288 op, 511872300.00 ns, 976.3189 ns/op
+
+WorkloadWarmup   1: 524288 op, 482745800.00 ns, 920.7645 ns/op
+WorkloadWarmup   2: 524288 op, 470610900.00 ns, 897.6191 ns/op
+WorkloadWarmup   3: 524288 op, 483494700.00 ns, 922.1930 ns/op
+WorkloadWarmup   4: 524288 op, 516781100.00 ns, 985.6817 ns/op
+WorkloadWarmup   5: 524288 op, 516890000.00 ns, 985.8894 ns/op
+WorkloadWarmup   6: 524288 op, 500402300.00 ns, 954.4416 ns/op
+WorkloadWarmup   7: 524288 op, 492558500.00 ns, 939.4808 ns/op
+WorkloadWarmup   8: 524288 op, 502176800.00 ns, 957.8262 ns/op
+WorkloadWarmup   9: 524288 op, 496472900.00 ns, 946.9469 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 524288 op, 482058600.00 ns, 919.4538 ns/op
+WorkloadActual   2: 524288 op, 473200200.00 ns, 902.5578 ns/op
+WorkloadActual   3: 524288 op, 476761200.00 ns, 909.3498 ns/op
+WorkloadActual   4: 524288 op, 471083200.00 ns, 898.5199 ns/op
+WorkloadActual   5: 524288 op, 479851600.00 ns, 915.2443 ns/op
+WorkloadActual   6: 524288 op, 474823900.00 ns, 905.6547 ns/op
+WorkloadActual   7: 524288 op, 476825700.00 ns, 909.4728 ns/op
+WorkloadActual   8: 524288 op, 480852700.00 ns, 917.1537 ns/op
+WorkloadActual   9: 524288 op, 472752300.00 ns, 901.7035 ns/op
+WorkloadActual  10: 524288 op, 493349700.00 ns, 940.9899 ns/op
+WorkloadActual  11: 524288 op, 490983400.00 ns, 936.4765 ns/op
+WorkloadActual  12: 524288 op, 493460000.00 ns, 941.2003 ns/op
+WorkloadActual  13: 524288 op, 477367400.00 ns, 910.5061 ns/op
+WorkloadActual  14: 524288 op, 502470900.00 ns, 958.3872 ns/op
+WorkloadActual  15: 524288 op, 505756900.00 ns, 964.6547 ns/op
+WorkloadActual  16: 524288 op, 510987300.00 ns, 974.6309 ns/op
+WorkloadActual  17: 524288 op, 507526800.00 ns, 968.0305 ns/op
+WorkloadActual  18: 524288 op, 520281800.00 ns, 992.3588 ns/op
+WorkloadActual  19: 524288 op, 511559100.00 ns, 975.7215 ns/op
+WorkloadActual  20: 524288 op, 510192900.00 ns, 973.1157 ns/op
+WorkloadActual  21: 524288 op, 500228900.00 ns, 954.1109 ns/op
+WorkloadActual  22: 524288 op, 482352900.00 ns, 920.0151 ns/op
+WorkloadActual  23: 524288 op, 487291600.00 ns, 929.4350 ns/op
+WorkloadActual  24: 524288 op, 508565200.00 ns, 970.0111 ns/op
+WorkloadActual  25: 524288 op, 496816300.00 ns, 947.6019 ns/op
+WorkloadActual  26: 524288 op, 482248000.00 ns, 919.8151 ns/op
+WorkloadActual  27: 524288 op, 489450300.00 ns, 933.5524 ns/op
+WorkloadActual  28: 524288 op, 506586700.00 ns, 966.2374 ns/op
+WorkloadActual  29: 524288 op, 485747200.00 ns, 926.4893 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 524288 op, 482058600.00 ns, 919.4538 ns/op
+WorkloadResult   2: 524288 op, 473200200.00 ns, 902.5578 ns/op
+WorkloadResult   3: 524288 op, 476761200.00 ns, 909.3498 ns/op
+WorkloadResult   4: 524288 op, 471083200.00 ns, 898.5199 ns/op
+WorkloadResult   5: 524288 op, 479851600.00 ns, 915.2443 ns/op
+WorkloadResult   6: 524288 op, 474823900.00 ns, 905.6547 ns/op
+WorkloadResult   7: 524288 op, 476825700.00 ns, 909.4728 ns/op
+WorkloadResult   8: 524288 op, 480852700.00 ns, 917.1537 ns/op
+WorkloadResult   9: 524288 op, 472752300.00 ns, 901.7035 ns/op
+WorkloadResult  10: 524288 op, 493349700.00 ns, 940.9899 ns/op
+WorkloadResult  11: 524288 op, 490983400.00 ns, 936.4765 ns/op
+WorkloadResult  12: 524288 op, 493460000.00 ns, 941.2003 ns/op
+WorkloadResult  13: 524288 op, 477367400.00 ns, 910.5061 ns/op
+WorkloadResult  14: 524288 op, 502470900.00 ns, 958.3872 ns/op
+WorkloadResult  15: 524288 op, 505756900.00 ns, 964.6547 ns/op
+WorkloadResult  16: 524288 op, 510987300.00 ns, 974.6309 ns/op
+WorkloadResult  17: 524288 op, 507526800.00 ns, 968.0305 ns/op
+WorkloadResult  18: 524288 op, 520281800.00 ns, 992.3588 ns/op
+WorkloadResult  19: 524288 op, 511559100.00 ns, 975.7215 ns/op
+WorkloadResult  20: 524288 op, 510192900.00 ns, 973.1157 ns/op
+WorkloadResult  21: 524288 op, 500228900.00 ns, 954.1109 ns/op
+WorkloadResult  22: 524288 op, 482352900.00 ns, 920.0151 ns/op
+WorkloadResult  23: 524288 op, 487291600.00 ns, 929.4350 ns/op
+WorkloadResult  24: 524288 op, 508565200.00 ns, 970.0111 ns/op
+WorkloadResult  25: 524288 op, 496816300.00 ns, 947.6019 ns/op
+WorkloadResult  26: 524288 op, 482248000.00 ns, 919.8151 ns/op
+WorkloadResult  27: 524288 op, 489450300.00 ns, 933.5524 ns/op
+WorkloadResult  28: 524288 op, 506586700.00 ns, 966.2374 ns/op
+WorkloadResult  29: 524288 op, 485747200.00 ns, 926.4893 ns/op
+GC:  254 0 0 2130707488 524288
+Threading:  0 0 524288
+
+// AfterAll
+// Benchmark Process 2960 has exited with code 0.
+
+Mean = 937.326 ns, StdErr = 5.074 ns (0.54%), N = 29, StdDev = 27.326 ns
+Min = 898.520 ns, Q1 = 915.244 ns, Median = 933.552 ns, Q3 = 964.655 ns, Max = 992.359 ns
+IQR = 49.410 ns, LowerFence = 841.129 ns, UpperFence = 1,038.770 ns
+ConfidenceInterval = [918.683 ns; 955.968 ns] (CI 99.9%), Margin = 18.643 ns (1.99% of Mean)
+Skewness = 0.28, Kurtosis = 1.69, MValue = 2.33
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\EpicAkSBenchamarking.EpicAkSBenchmarks-report.csv
+  BenchmarkDotNet.Artifacts\results\EpicAkSBenchamarking.EpicAkSBenchmarks-report-github.md
+  BenchmarkDotNet.Artifacts\results\EpicAkSBenchamarking.EpicAkSBenchmarks-report.html
+
+// * Detailed results *
+EpicAkSBenchmarks.Check_Serialize_TC_Strings: DefaultJob
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 937.326 ns, StdErr = 5.074 ns (0.54%), N = 29, StdDev = 27.326 ns
+Min = 898.520 ns, Q1 = 915.244 ns, Median = 933.552 ns, Q3 = 964.655 ns, Max = 992.359 ns
+IQR = 49.410 ns, LowerFence = 841.129 ns, UpperFence = 1,038.770 ns
+ConfidenceInterval = [918.683 ns; 955.968 ns] (CI 99.9%), Margin = 18.643 ns (1.99% of Mean)
+Skewness = 0.28, Kurtosis = 1.69, MValue = 2.33
+-------------------- Histogram --------------------
+[897.594 ns ;   925.372 ns) | @@@@@@@@@@@@
+[925.372 ns ;   953.242 ns) | @@@@@@@
+[953.242 ns ;   976.590 ns) | @@@@@@@@@
+[976.590 ns ; 1,004.033 ns) | @
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+11th Gen Intel Core i9-11900K 3.50GHz, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=6.0.200-preview.21617.4
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+|                     Method |     Mean |    Error |   StdDev | Rank |  Gen 0 | Allocated |
+|--------------------------- |---------:|---------:|---------:|-----:|-------:|----------:|
+| Check_Serialize_TC_Strings | 937.3 ns | 18.64 ns | 27.33 ns |    1 | 0.4845 |      4 KB |
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Rank      : Relative position of current benchmark mean among all benchmarks (Arabic style)
+  Gen 0     : GC Generation 0 collects per 1000 operations
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ns      : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:22 (22.98 sec), executed benchmarks: 1
+
+Global total time: 00:00:39 (39.82 sec), executed benchmarks: 1
+// * Artifacts cleanup *

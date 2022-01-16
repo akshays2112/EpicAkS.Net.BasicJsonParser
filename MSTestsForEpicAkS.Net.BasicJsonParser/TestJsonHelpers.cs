@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EpicAkS.Net.BasicJsonParser;
-using EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.TestingIfAllTypesWork;
+using EpicAkS.Net.BasicJsonParser.WebAPIClasses.ServiceProviders.EpicAkSTestingIfAllTypesWork;
+using EpicAkSAutoFillData;
 
 namespace MSTestsForEpicAkS.Net.BasicJsonParser
 {
@@ -8,16 +9,52 @@ namespace MSTestsForEpicAkS.Net.BasicJsonParser
     public class TestJsonHelpers
     {
         [TestInitialize]
-        public void InitializeUnitTests() => JsonHelpers.Initialize();
+        public void InitializeUnitTests() => EpicAkSJsonHelpers.Initialize();
 
         #region Serialize Tests
 
         [TestMethod]
-        public void Test1_Serialize_TC_Strings()
+        public void Serialize1_TC_Strings()
         {
-            JsonHelpers.NoWhitespace = true;
-            TC_BoolArrays tc_BoolArrays = new();
-            Assert.IsTrue(JsonHelpers.Serialize(tc_BoolArrays)?.Equals("{\"tc_boolArrays_boolArray_prop1\":[],\"tc_boolArrays_nullableBoolArray_prop2\":[],\"tc_boolArrays_boolArrayNullable_prop3\":null,\"tc_boolArrays_nullableBoolArrayNullable_prop4\":null,\"tc_boolArrays_booleanArray_prop5\":[],\"tc_boolArrays_nullableBooleanArray_prop6\":[],\"tc_boolArrays_booleanArrayNullable_prop7\":null,\"tc_boolArrays_nullableBooleanArrayNullable_prop8\":null}"));
+            TC_Strings? tc_Strings = EpicAkSAutoFillDataForClassProperties.AutoFillDataForObject<TC_Strings>(new());
+            EpicAkSJsonHelpers.NoWhitespace = true;
+            TC_Strings? msJson_tc_Strings = System.Text.Json.JsonSerializer.Deserialize<TC_Strings>(
+                EpicAkSJsonHelpers.Serialize(tc_Strings) ?? "{}");
+            Assert.IsTrue(EpicAkSAutoFillDataForClassProperties.CompareInstancesOfAClass(tc_Strings, msJson_tc_Strings));
+        }
+
+        [TestMethod]
+        public void Serialize2_TC_StringArrays()
+        {
+            TC_StringArrays? tc_StringArrays = EpicAkSAutoFillDataForClassProperties.AutoFillDataForObject<TC_StringArrays>(new());
+            EpicAkSJsonHelpers.NoWhitespace = true;
+            TC_StringArrays? msJson_tc_StringArrays = System.Text.Json.JsonSerializer.Deserialize<TC_StringArrays>(
+                EpicAkSJsonHelpers.Serialize(tc_StringArrays) ?? "{}");
+            Assert.IsTrue(EpicAkSAutoFillDataForClassProperties.CompareInstancesOfAClass(tc_StringArrays, msJson_tc_StringArrays));
+        }
+
+        #endregion
+
+        #region Deserialize Tests
+
+        [TestMethod]
+        public void Deserialize1_TC_Strings()
+        {
+            TC_Strings? tc_Strings = EpicAkSAutoFillDataForClassProperties.AutoFillDataForObject<TC_Strings>(new());
+            if (tc_Strings is null) return;
+            TC_Strings? fromJson_tc_Strings = EpicAkSJsonHelpers.Deserialize(new TC_Strings(),
+                System.Text.Json.JsonSerializer.Serialize<TC_Strings>(tc_Strings));
+            Assert.IsTrue(EpicAkSAutoFillDataForClassProperties.CompareInstancesOfAClass(tc_Strings, fromJson_tc_Strings));
+        }
+
+        [TestMethod]
+        public void Deserialize2_TC_StringArrays()
+        {
+            TC_StringArrays? tc_StringArrays = EpicAkSAutoFillDataForClassProperties.AutoFillDataForObject<TC_StringArrays>(new());
+            if (tc_StringArrays is null) return;
+            TC_StringArrays? fromJson_tc_StringArrays = EpicAkSJsonHelpers.Deserialize(new TC_StringArrays(),
+                System.Text.Json.JsonSerializer.Serialize(tc_StringArrays));
+            Assert.IsTrue(EpicAkSAutoFillDataForClassProperties.CompareInstancesOfAClass(tc_StringArrays, fromJson_tc_StringArrays));
         }
 
         #endregion

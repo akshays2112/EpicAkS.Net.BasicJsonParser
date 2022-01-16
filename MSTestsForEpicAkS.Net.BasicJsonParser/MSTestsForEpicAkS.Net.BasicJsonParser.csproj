@@ -11,11 +11,11 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0-preview-20211130-02" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
     <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser.csproj" />
+    <ProjectReference Include="..\EpicAkSAutoFillData\EpicAkSAutoFillData.csproj" />
   </ItemGroup>
 
 </Project>

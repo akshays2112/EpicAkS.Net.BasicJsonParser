@@ -1,0 +1,12 @@
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\bin\Release\net6.0\EpicAkSAutoFillData.deps.json
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\bin\Release\net6.0\EpicAkSAutoFillData.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\bin\Release\net6.0\EpicAkSAutoFillData.pdb
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\EpicAkSAutoFillData.csproj.AssemblyReference.cache
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\EpicAkSAutoFillData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\EpicAkSAutoFillData.AssemblyInfoInputs.cache
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\EpicAkSAutoFillData.AssemblyInfo.cs
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\EpicAkSAutoFillData.csproj.CoreCompileInputs.cache
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\EpicAkSAutoFillData.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\refint\EpicAkSAutoFillData.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\EpicAkSAutoFillData.pdb
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSAutoFillData\obj\Release\net6.0\ref\EpicAkSAutoFillData.dll
