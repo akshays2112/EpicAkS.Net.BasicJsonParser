@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpicAkSTestBed", "EpicAkSTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSTestsForEpicAkS.Net.BasicJsonParser", "MSTestsForEpicAkS.Net.BasicJsonParser\MSTestsForEpicAkS.Net.BasicJsonParser.csproj", "{FD219636-B44B-4971-B98D-48B6C790CDEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicAkSBenchamarking", "EpicAkSBenchamarking\EpicAkSBenchamarking.csproj", "{9BC2C3EB-CC53-4505-948A-E730834FA00A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpicAkSBenchamarking", "EpicAkSBenchamarking\EpicAkSBenchamarking.csproj", "{9BC2C3EB-CC53-4505-948A-E730834FA00A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicAkSAutoFillData", "EpicAkSAutoFillData\EpicAkSAutoFillData.csproj", "{F1BC9280-11E5-4CB8-9D54-D21CDB5D5304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpicAkSAutoFillData", "EpicAkSAutoFillData\EpicAkSAutoFillData.csproj", "{F1BC9280-11E5-4CB8-9D54-D21CDB5D5304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTestsForEpicAkS.Net.BasicJsonParser", "xUnitTestsForEpicAkS.Net.BasicJsonParser\xUnitTestsForEpicAkS.Net.BasicJsonParser.csproj", "{56F4A4E3-B799-49D5-9BBB-B6E052861F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestsForEpicAkS.Net.BasicJsonParser", "NUnitTestsForEpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser.csproj", "{D530F411-3ECF-450E-B71F-20B44E8A5AC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{F1BC9280-11E5-4CB8-9D54-D21CDB5D5304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1BC9280-11E5-4CB8-9D54-D21CDB5D5304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1BC9280-11E5-4CB8-9D54-D21CDB5D5304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F4A4E3-B799-49D5-9BBB-B6E052861F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F4A4E3-B799-49D5-9BBB-B6E052861F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F4A4E3-B799-49D5-9BBB-B6E052861F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F4A4E3-B799-49D5-9BBB-B6E052861F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D530F411-3ECF-450E-B71F-20B44E8A5AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D530F411-3ECF-450E-B71F-20B44E8A5AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D530F411-3ECF-450E-B71F-20B44E8A5AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D530F411-3ECF-450E-B71F-20B44E8A5AC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

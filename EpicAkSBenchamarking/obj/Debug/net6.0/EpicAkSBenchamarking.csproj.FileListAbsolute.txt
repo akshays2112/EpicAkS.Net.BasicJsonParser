@@ -74,3 +74,4 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\EpicAkSBenchamarking.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\EpicAkSBenchamarking.genruntimeconfig.cache
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\ref\EpicAkSBenchamarking.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\Newtonsoft.Json.dll
