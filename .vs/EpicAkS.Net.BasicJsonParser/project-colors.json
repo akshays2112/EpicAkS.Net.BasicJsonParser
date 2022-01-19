@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "56f4a4e3-b799-49d5-9bbb-b6e052861f5d": {
+      "ProjectGuid": "56f4a4e3-b799-49d5-9bbb-b6e052861f5d",
+      "DisplayName": "xUnitTestsForEpicAkS.Net.BasicJsonParser",
+      "ColorIndex": 0
+    },
+    "a5714b6c-aeab-4361-acb4-08bd34291983": {
+      "ProjectGuid": "a5714b6c-aeab-4361-acb4-08bd34291983",
+      "DisplayName": "EpicAkSTestBed",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

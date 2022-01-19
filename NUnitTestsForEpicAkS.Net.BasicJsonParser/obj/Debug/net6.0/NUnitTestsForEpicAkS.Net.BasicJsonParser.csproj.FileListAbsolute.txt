@@ -11,6 +11,7 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.deps.json
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.runtimeconfig.json
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\ref\NUnitTestsForEpicAkS.Net.BasicJsonParser.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\Bogus.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -100,7 +101,6 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.csproj.CoreCompileInputs.cache
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.csproj.CopyComplete
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.dll
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\refint\NUnitTestsForEpicAkS.Net.BasicJsonParser.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\ref\NUnitTestsForEpicAkS.Net.BasicJsonParser.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\NUnitTestsForEpicAkS.Net.BasicJsonParser.genruntimeconfig.cache
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\NUnitTestsForEpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\ref\NUnitTestsForEpicAkS.Net.BasicJsonParser.dll

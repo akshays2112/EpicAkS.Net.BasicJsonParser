@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hml3y2oCOvzMGNhOzTqYRFMlEpofbhinBnGk09D2N5yxQHntmkU4HiCCC00/larmUfC5lFkktAGHQcWPbVWrPg==",
+  "dgSpecHash": "+bqjqUkfxeXPN3fpcs3000ND5puRlZWrmCzHhUFfVS+/NGgcflBgYEYzggnMTZLpchsnFoVcWaOYbXTf5G0zgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.0\\microsoft.windowsdesktop.app.ref.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

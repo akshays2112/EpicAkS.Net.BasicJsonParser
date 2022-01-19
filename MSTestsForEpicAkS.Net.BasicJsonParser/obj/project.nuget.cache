@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RemaYMnowgFPDJBji3rbwtuQa88pO8LBt3+THAHdvCDOX8leP5QmuB7YECtAZqERkD9Gw0cfwT1Vjc/OJ9pL6Q==",
+  "dgSpecHash": "wf/weN8QENUUxyqyc4dxMDBHWMgpL0rKY4KHIZF07qkn1auE63EyjitCaue8WdoEdbhYrly4ESQ4brlVEPEMiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser.csproj",
   "expectedPackageFiles": [
@@ -91,7 +91,8 @@
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.0\\microsoft.windowsdesktop.app.ref.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

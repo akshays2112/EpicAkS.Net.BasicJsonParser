@@ -15,6 +15,7 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\EpicAkSBenchamarking.deps.json
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\EpicAkSBenchamarking.runtimeconfig.json
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\EpicAkSBenchamarking.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\ref\EpicAkSBenchamarking.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\EpicAkSBenchamarking.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\BenchmarkDotNet.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\BenchmarkDotNet.Annotations.dll
@@ -28,6 +29,7 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\Microsoft.Diagnostics.FastSerialization.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\Microsoft.Diagnostics.Tracing.TraceEvent.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\Perfolizer.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\System.Management.dll
@@ -70,8 +72,6 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\EpicAkSBenchamarking.csproj.CoreCompileInputs.cache
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\EpicAkSBenchamarking.csproj.CopyComplete
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\EpicAkSBenchamarking.dll
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\refint\EpicAkSBenchamarking.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\ref\EpicAkSBenchamarking.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\EpicAkSBenchamarking.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\EpicAkSBenchamarking.genruntimeconfig.cache
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\obj\Debug\net6.0\ref\EpicAkSBenchamarking.dll
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkSBenchamarking\bin\Debug\net6.0\Newtonsoft.Json.dll

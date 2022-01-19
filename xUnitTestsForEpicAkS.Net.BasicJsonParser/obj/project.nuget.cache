@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "59Y7LN9rMVkZM5axr9Jqwot/cJXoZbljhS0yx1uu/L5wPUquaOj7hL9B8IhK+7547Tv1CcwzkdFrgFtjWp8QAQ==",
+  "dgSpecHash": "r5wJ+mXBw7BMF0O5Fzy8PBw8yCM+vFVdkSrPFs5m7DE9fDbhBvgg5GrtupbP4WMm8R/GOAE4rJ2fareR8nLNMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\xUnitTestsForEpicAkS.Net.BasicJsonParser\\xUnitTestsForEpicAkS.Net.BasicJsonParser.csproj",
   "expectedPackageFiles": [
@@ -96,7 +96,8 @@
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
+    "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.0\\microsoft.windowsdesktop.app.ref.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

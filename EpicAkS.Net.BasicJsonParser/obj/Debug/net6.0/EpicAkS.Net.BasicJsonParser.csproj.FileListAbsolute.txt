@@ -1,17 +1,6 @@
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.deps.json
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.dll
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.pdb
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.csproj.AssemblyReference.cache
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.GeneratedMSBuildEditorConfig.editorconfig
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.AssemblyInfoInputs.cache
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.AssemblyInfo.cs
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.csproj.CoreCompileInputs.cache
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.dll
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\refint\EpicAkS.Net.BasicJsonParser.dll
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.pdb
-D:\VSProjects2022 Temp Backup\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\ref\EpicAkS.Net.BasicJsonParser.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.deps.json
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\ref\EpicAkS.Net.BasicJsonParser.dll
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\bin\Debug\net6.0\EpicAkS.Net.BasicJsonParser.xml
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.csproj.AssemblyReference.cache
@@ -20,6 +9,5 @@ C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.Basic
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.AssemblyInfo.cs
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.csproj.CoreCompileInputs.cache
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.dll
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\refint\EpicAkS.Net.BasicJsonParser.dll
-C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.pdb
 C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\ref\EpicAkS.Net.BasicJsonParser.dll
+C:\Users\Akshay Srinivasan\OneDrive\AkshayData\VS2022 Projects\EpicAkS.Net.BasicJsonParser\EpicAkS.Net.BasicJsonParser\obj\Debug\net6.0\EpicAkS.Net.BasicJsonParser.pdb
