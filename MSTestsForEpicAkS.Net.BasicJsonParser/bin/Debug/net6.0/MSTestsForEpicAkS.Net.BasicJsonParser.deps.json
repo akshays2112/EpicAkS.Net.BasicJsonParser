@@ -12,7 +12,7 @@
           "EpicAkSAutoFillData": "1.0.0",
           "MSTest.TestAdapter": "2.2.8",
           "MSTest.TestFramework": "2.2.8",
-          "Microsoft.NET.Test.Sdk": "17.1.0-preview-20211130-02"
+          "Microsoft.NET.Test.Sdk": "17.1.0-release-20220113-05"
         },
         "runtime": {
           "MSTestsForEpicAkS.Net.BasicJsonParser.dll": {}
@@ -26,11 +26,11 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/17.1.0-preview-20211130-02": {
+      "Microsoft.CodeCoverage/17.1.0-release-20220113-05": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "17.100.221.57901"
+            "fileVersion": "17.100.221.61401"
           }
         }
       },
@@ -54,15 +54,15 @@
           "System.Threading": "4.3.0"
         }
       },
-      "Microsoft.NET.Test.Sdk/17.1.0-preview-20211130-02": {
+      "Microsoft.NET.Test.Sdk/17.1.0-release-20220113-05": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.1.0-preview-20211130-02",
-          "Microsoft.TestPlatform.TestHost": "17.1.0-preview-20211130-02"
+          "Microsoft.CodeCoverage": "17.1.0-release-20220113-05",
+          "Microsoft.TestPlatform.TestHost": "17.1.0-release-20220113-05"
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.TestPlatform.ObjectModel/17.1.0-preview-20211130-02": {
+      "Microsoft.TestPlatform.ObjectModel/17.1.0-release-20220113-05": {
         "dependencies": {
           "NuGet.Frameworks": "5.11.0",
           "System.Reflection.Metadata": "1.6.0"
@@ -162,9 +162,9 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.1.0-preview-20211130-02": {
+      "Microsoft.TestPlatform.TestHost/17.1.0-release-20220113-05": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.1.0-preview-20211130-02",
+          "Microsoft.TestPlatform.ObjectModel": "17.1.0-release-20220113-05",
           "Newtonsoft.Json": "9.0.1"
         },
         "runtime": {
@@ -1112,12 +1112,12 @@
       "path": "bogus/34.0.1",
       "hashPath": "bogus.34.0.1.nupkg.sha512"
     },
-    "Microsoft.CodeCoverage/17.1.0-preview-20211130-02": {
+    "Microsoft.CodeCoverage/17.1.0-release-20220113-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/5TfcA9hVvMubJgqHhTEox+AFqHpbbsoQb1BDvvyepangOuQGufpkF73bv2Y15vFrVjphOgDASzrGLyzWVm/yA==",
-      "path": "microsoft.codecoverage/17.1.0-preview-20211130-02",
-      "hashPath": "microsoft.codecoverage.17.1.0-preview-20211130-02.nupkg.sha512"
+      "sha512": "sha512-rkmAxdeLQSnd1ICRYAb/p7itc/cShK7tgqfZmyFrUjH6xZMGfx8Mn3ZzGhDusu3c21u+6BAo6OEuEdl3pZP1og==",
+      "path": "microsoft.codecoverage/17.1.0-release-20220113-05",
+      "hashPath": "microsoft.codecoverage.17.1.0-release-20220113-05.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
@@ -1126,12 +1126,12 @@
       "path": "microsoft.csharp/4.0.1",
       "hashPath": "microsoft.csharp.4.0.1.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/17.1.0-preview-20211130-02": {
+    "Microsoft.NET.Test.Sdk/17.1.0-release-20220113-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JJjwIOtFcOAj7nxHSK/vJd9Eo4mAxqhA+wuIIQ++GOSCJls+Qj+MfpmBwJ4DqkwkVpKHQOBD4E3WRFNJ6/E02Q==",
-      "path": "microsoft.net.test.sdk/17.1.0-preview-20211130-02",
-      "hashPath": "microsoft.net.test.sdk.17.1.0-preview-20211130-02.nupkg.sha512"
+      "sha512": "sha512-3RPl0Fg/BQCm21wuaCrc4o+M5hqEuyBaHOh48MSQdzp37Zk0QlPrBOKRYq0GOgIGCKjUe7G0zek7cRNPPGCuvg==",
+      "path": "microsoft.net.test.sdk/17.1.0-release-20220113-05",
+      "hashPath": "microsoft.net.test.sdk.17.1.0-release-20220113-05.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -1147,19 +1147,19 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/17.1.0-preview-20211130-02": {
+    "Microsoft.TestPlatform.ObjectModel/17.1.0-release-20220113-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uLHpSFv5F1Rk//4FZCJZVCDSLj75/7SYRCJ7+iqZI8//Dmk7iXsKdmbdjUKpFqXzIY5ert9YHD9PnV1mUtf1aQ==",
-      "path": "microsoft.testplatform.objectmodel/17.1.0-preview-20211130-02",
-      "hashPath": "microsoft.testplatform.objectmodel.17.1.0-preview-20211130-02.nupkg.sha512"
+      "sha512": "sha512-VY0PEip+FfbdDYSl3WXBG6ubHlm1gHBmmCWBh3x6kEagpONxNje1i1sTe2fG8O5QzNMZefbZZnqVofytgJm0BQ==",
+      "path": "microsoft.testplatform.objectmodel/17.1.0-release-20220113-05",
+      "hashPath": "microsoft.testplatform.objectmodel.17.1.0-release-20220113-05.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/17.1.0-preview-20211130-02": {
+    "Microsoft.TestPlatform.TestHost/17.1.0-release-20220113-05": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3uwe0blITI5w9EPXcVfVcKOr+XQ2A9sBbE81HoxLHVGB5QgHpymhUPqTVzRxzUa1uMLdnoT0jwQUNnX6HR0exQ==",
-      "path": "microsoft.testplatform.testhost/17.1.0-preview-20211130-02",
-      "hashPath": "microsoft.testplatform.testhost.17.1.0-preview-20211130-02.nupkg.sha512"
+      "sha512": "sha512-VxAz65RMqZDMVg4aahZytQYpT+6srBN/iVzm2rNrhSxkTyJ0+XB479Oo+XVvWkE84ZwSLrruAcPStyNtg32ymg==",
+      "path": "microsoft.testplatform.testhost/17.1.0-release-20220113-05",
+      "hashPath": "microsoft.testplatform.testhost.17.1.0-release-20220113-05.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",

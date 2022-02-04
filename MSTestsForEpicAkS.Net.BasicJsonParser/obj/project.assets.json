@@ -11,7 +11,7 @@
           "lib/net6.0/Bogus.dll": {}
         }
       },
-      "Microsoft.CodeCoverage/17.1.0-preview-20211130-02": {
+      "Microsoft.CodeCoverage/17.1.0-release-20220113-05": {
         "type": "package",
         "compile": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
@@ -51,11 +51,11 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.NET.Test.Sdk/17.1.0-preview-20211130-02": {
+      "Microsoft.NET.Test.Sdk/17.1.0-release-20220113-05": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.1.0-preview-20211130-02",
-          "Microsoft.TestPlatform.TestHost": "17.1.0-preview-20211130-02"
+          "Microsoft.CodeCoverage": "17.1.0-release-20220113-05",
+          "Microsoft.TestPlatform.TestHost": "17.1.0-release-20220113-05"
         },
         "compile": {
           "lib/netcoreapp2.1/_._": {}
@@ -89,7 +89,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/17.1.0-preview-20211130-02": {
+      "Microsoft.TestPlatform.ObjectModel/17.1.0-release-20220113-05": {
         "type": "package",
         "dependencies": {
           "NuGet.Frameworks": "5.11.0",
@@ -186,10 +186,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.1.0-preview-20211130-02": {
+      "Microsoft.TestPlatform.TestHost/17.1.0-release-20220113-05": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.1.0-preview-20211130-02",
+          "Microsoft.TestPlatform.ObjectModel": "17.1.0-release-20220113-05",
           "Newtonsoft.Json": "9.0.1"
         },
         "compile": {
@@ -1709,10 +1709,10 @@
         "lib/netstandard2.0/Bogus.xml"
       ]
     },
-    "Microsoft.CodeCoverage/17.1.0-preview-20211130-02": {
-      "sha512": "/5TfcA9hVvMubJgqHhTEox+AFqHpbbsoQb1BDvvyepangOuQGufpkF73bv2Y15vFrVjphOgDASzrGLyzWVm/yA==",
+    "Microsoft.CodeCoverage/17.1.0-release-20220113-05": {
+      "sha512": "rkmAxdeLQSnd1ICRYAb/p7itc/cShK7tgqfZmyFrUjH6xZMGfx8Mn3ZzGhDusu3c21u+6BAo6OEuEdl3pZP1og==",
       "type": "package",
-      "path": "microsoft.codecoverage/17.1.0-preview-20211130-02",
+      "path": "microsoft.codecoverage/17.1.0-release-20220113-05",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1739,10 +1739,13 @@
         "build/netstandard1.0/CodeCoverage/msvcp140.dll",
         "build/netstandard1.0/CodeCoverage/msvcp140_atomic_wait.dll",
         "build/netstandard1.0/CodeCoverage/vcruntime140.dll",
-        "build/netstandard1.0/InstrumentationEngine/alpine/x64/ProductionBreakpoints_x64.config",
+        "build/netstandard1.0/InstrumentationEngine/alpine/x64/VanguardInstrumentationProfiler_x64.config",
         "build/netstandard1.0/InstrumentationEngine/alpine/x64/libCoverageInstrumentationMethod.so",
         "build/netstandard1.0/InstrumentationEngine/alpine/x64/libInstrumentationEngine.so",
-        "build/netstandard1.0/InstrumentationEngine/ubuntu/x64/ProductionBreakpoints_x64.config",
+        "build/netstandard1.0/InstrumentationEngine/macos/x64/VanguardInstrumentationProfiler_x64.config",
+        "build/netstandard1.0/InstrumentationEngine/macos/x64/libCoverageInstrumentationMethod.dylib",
+        "build/netstandard1.0/InstrumentationEngine/macos/x64/libInstrumentationEngine.dylib",
+        "build/netstandard1.0/InstrumentationEngine/ubuntu/x64/VanguardInstrumentationProfiler_x64.config",
         "build/netstandard1.0/InstrumentationEngine/ubuntu/x64/libCoverageInstrumentationMethod.so",
         "build/netstandard1.0/InstrumentationEngine/ubuntu/x64/libInstrumentationEngine.so",
         "build/netstandard1.0/InstrumentationEngine/x64/MicrosoftInstrumentationEngine_x64.dll",
@@ -1771,7 +1774,7 @@
         "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
         "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "microsoft.codecoverage.17.1.0-preview-20211130-02.nupkg.sha512",
+        "microsoft.codecoverage.17.1.0-release-20220113-05.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
       ]
     },
@@ -1834,10 +1837,10 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.NET.Test.Sdk/17.1.0-preview-20211130-02": {
-      "sha512": "JJjwIOtFcOAj7nxHSK/vJd9Eo4mAxqhA+wuIIQ++GOSCJls+Qj+MfpmBwJ4DqkwkVpKHQOBD4E3WRFNJ6/E02Q==",
+    "Microsoft.NET.Test.Sdk/17.1.0-release-20220113-05": {
+      "sha512": "3RPl0Fg/BQCm21wuaCrc4o+M5hqEuyBaHOh48MSQdzp37Zk0QlPrBOKRYq0GOgIGCKjUe7G0zek7cRNPPGCuvg==",
       "type": "package",
-      "path": "microsoft.net.test.sdk/17.1.0-preview-20211130-02",
+      "path": "microsoft.net.test.sdk/17.1.0-release-20220113-05",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1864,7 +1867,7 @@
         "lib/netcoreapp1.0/_._",
         "lib/netcoreapp2.1/_._",
         "lib/uap10.0/_._",
-        "microsoft.net.test.sdk.17.1.0-preview-20211130-02.nupkg.sha512",
+        "microsoft.net.test.sdk.17.1.0-release-20220113-05.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
       ]
     },
@@ -1898,10 +1901,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/17.1.0-preview-20211130-02": {
-      "sha512": "uLHpSFv5F1Rk//4FZCJZVCDSLj75/7SYRCJ7+iqZI8//Dmk7iXsKdmbdjUKpFqXzIY5ert9YHD9PnV1mUtf1aQ==",
+    "Microsoft.TestPlatform.ObjectModel/17.1.0-release-20220113-05": {
+      "sha512": "VY0PEip+FfbdDYSl3WXBG6ubHlm1gHBmmCWBh3x6kEagpONxNje1i1sTe2fG8O5QzNMZefbZZnqVofytgJm0BQ==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/17.1.0-preview-20211130-02",
+      "path": "microsoft.testplatform.objectmodel/17.1.0-release-20220113-05",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2139,14 +2142,14 @@
         "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/uap10.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.17.1.0-preview-20211130-02.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.17.1.0-release-20220113-05.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/17.1.0-preview-20211130-02": {
-      "sha512": "3uwe0blITI5w9EPXcVfVcKOr+XQ2A9sBbE81HoxLHVGB5QgHpymhUPqTVzRxzUa1uMLdnoT0jwQUNnX6HR0exQ==",
+    "Microsoft.TestPlatform.TestHost/17.1.0-release-20220113-05": {
+      "sha512": "VxAz65RMqZDMVg4aahZytQYpT+6srBN/iVzm2rNrhSxkTyJ0+XB479Oo+XVvWkE84ZwSLrruAcPStyNtg32ymg==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/17.1.0-preview-20211130-02",
+      "path": "microsoft.testplatform.testhost/17.1.0-release-20220113-05",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2360,7 +2363,7 @@
         "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.Common.dll",
         "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
         "lib/uap10.0/testhost.dll",
-        "microsoft.testplatform.testhost.17.1.0-preview-20211130-02.nupkg.sha512",
+        "microsoft.testplatform.testhost.17.1.0-release-20220113-05.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -6206,7 +6209,7 @@
       "EpicAkSAutoFillData >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.8",
-      "Microsoft.NET.Test.Sdk >= 17.1.0-preview-20211130-02"
+      "Microsoft.NET.Test.Sdk >= 17.1.0-release-20220113-05"
     ]
   },
   "packageFolders": {
@@ -6216,11 +6219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser.csproj",
+      "projectUniqueName": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser.csproj",
       "projectName": "MSTestsForEpicAkS.Net.BasicJsonParser",
-      "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser.csproj",
+      "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser.csproj",
       "packagesPath": "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\obj\\",
+      "outputPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\MSTestsForEpicAkS.Net.BasicJsonParser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6241,11 +6244,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj": {
-              "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj"
+            "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj": {
+              "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj"
             },
-            "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj": {
-              "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj"
+            "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj": {
+              "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj"
             }
           }
         }
@@ -6270,7 +6273,7 @@
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "[17.1.0-preview-20211130-02, )"
+            "version": "[17.1.0-release-20220113-05, )"
           }
         },
         "imports": [
@@ -6283,18 +6286,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.0, 6.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.22055.15\\RuntimeIdentifierGraph.json"
       }
     }
   }

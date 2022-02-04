@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj": {}
+    "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj": {
+    "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj",
+        "projectUniqueName": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj",
         "projectName": "EpicAkSAutoFillData",
-        "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj",
+        "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\EpicAkSAutoFillData.csproj",
         "packagesPath": "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\obj\\",
+        "outputPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSAutoFillData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,18 +59,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.0, 6.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.22055.15\\RuntimeIdentifierGraph.json"
         }
       }
     }

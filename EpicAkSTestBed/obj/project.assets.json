@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSTestBed\\EpicAkSTestBed.csproj",
+      "projectUniqueName": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSTestBed\\EpicAkSTestBed.csproj",
       "projectName": "EpicAkSTestBed",
-      "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSTestBed\\EpicAkSTestBed.csproj",
+      "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSTestBed\\EpicAkSTestBed.csproj",
       "packagesPath": "C:\\Users\\Akshay Srinivasan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkSTestBed\\obj\\",
+      "outputPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkSTestBed\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj": {
-              "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj"
+            "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj": {
+              "projectPath": "C:\\Users\\Akshay Srinivasan\\OneDrive\\AkshayData\\VS2022 Projects\\akshays2112\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser\\EpicAkS.Net.BasicJsonParser.csproj"
             }
           }
         }
@@ -78,18 +78,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.0, 6.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.22055.15\\RuntimeIdentifierGraph.json"
       }
     }
   }
